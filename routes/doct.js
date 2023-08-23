@@ -15,7 +15,7 @@ router.post(
   [
     check("question", "question is required").not().isEmpty(),
     check("question", "question must be at least 10 characters long").isLength({
-      min: 10,
+      min: 3,
     }),
     fieldsValidators,
   ],
@@ -26,7 +26,7 @@ router.post(
   [
     check("question", "question is required").not().isEmpty(),
     check("question", "question must be at least 10 characters long").isLength({
-      min: 10,
+      min: 3,
     }),
     fieldsValidators,
   ],
