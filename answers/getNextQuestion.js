@@ -1,7 +1,7 @@
 const questionsRoute = [
   {
     id: "customer-service",
-    description: "Creo que necesita comunicarse con servicio al cliente, es un momento alguien se contactará con Usted",
+    description: "Creo que necesita comunicarse con servicio al cliente, en un momento alguien se contactará con Usted",
     next: "",
     apiUrl: "",
   },

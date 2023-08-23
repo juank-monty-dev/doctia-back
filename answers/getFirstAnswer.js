@@ -146,6 +146,18 @@ const examples = [
     label: "customer-service",
     text: "Tengo preguntas acerca de mi subscripcion",
   },
+  {
+    label: "customer-service",
+    text: "quiero ver mi ultima factura",
+  },
+  {
+    label: "customer-service",
+    text: "mi pago no fue debitado",
+  },
+  {
+    label: "customer-service",
+    text: "cancelar servicio",
+  },
 ];
 
 const getFirstAnswer = async (question) => {
