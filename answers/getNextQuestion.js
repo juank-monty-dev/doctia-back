@@ -1,33 +1,33 @@
 const questionsRoute = [
   {
     id: "customer-service",
-    description: "servicio al cliente",
+    description: "Creo que necesita comunicarse con servicio al cliente, es un momento alguien se contactará con Usted",
     next: "",
     apiUrl: "",
   },
 
   {
     id: "medical-service",
-    description: "agendar servicio médico",
+    description: "Quiere agendar un servicio médico? en un momento será contactado para coordinar todo lo necesario",
     next: "",
     apiUrl: "",
   },
 
   {
     id: "instant-attention",
-    description: "consulta médica inmediata",
-    next: "Cuéntanos tus 3 principales síntomas",
+    description: "Necesitamos más información de sus síntomas, haga click fuera de este modal para continuar",
+    next: "Cuales son sus principales síntomas?",
     apiUrl: "/ans2",
   },
   {
     id: "medical-emergency",
-    description: "Urgencia médica, precisa de atención inmediata!",
+    description: "Usted tiene una urgencia médica, precisa de atención inmediata!",
     next: "",
     apiUrl: "",
   },
   {
     id: "virtual-doctor",
-    description: "Vas a ser remitido a nuestro cuidador digital",
+    description: "Nuestro CUIDADOR DIGITAL está disponible para ayudarte",
     next: "",
     apiUrl: "",
   },
